@@ -9,6 +9,7 @@
 import numpy as np
 import pandas as pd
 from flask import Flask, render_template, request
+from sklearn.tree import DecisionTreeClassifier 
 import pickle
 
 app = Flask(__name__)
